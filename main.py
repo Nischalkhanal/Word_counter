@@ -15,7 +15,7 @@ def start(url):
         content = post_text.get_text()
         words = content.lower().split()
         for each_word in words:
-            print(each_word)
+            #print(each_word)
             word_list.append(each_word)
     clean_list(word_list)
 
